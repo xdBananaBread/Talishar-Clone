@@ -1,7 +1,7 @@
 <?php
 
 // Fabrary
-$FaBraryKey = "flesh-and-blood-online-moa4z4eauZVR8Zfdx7i7yAsutRcuvL";
+$FaBraryKey = "op://$APP_ENV/Fabrary/credential";
 $fabraryOutgoingKey = "op://$APP_ENV/Fabrary/OutgoingKey";
 
 // Sendgrid
