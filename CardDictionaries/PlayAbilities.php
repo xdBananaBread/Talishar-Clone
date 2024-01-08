@@ -159,6 +159,7 @@
           AddDecisionQueue("MULTICHOOSETEXT", $otherPlayer, "1-Might (+1),Vigor (Resource),Quicken (Go Again)-1");
           AddDecisionQueue("SHOWMODES", $otherPlayer, $cardID, 1);
           AddDecisionQueue("MODAL", $otherPlayer, "JINGLEWOOD", 1);
+          PutItemIntoPlayForPlayer($cardID, $otherPlayer);
           PutItemIntoPlayForPlayer("CRU197", $currentPlayer);
           --$character[$charIndex+5];
           }
