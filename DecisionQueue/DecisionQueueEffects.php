@@ -177,9 +177,9 @@ function ModalAbilities($player, $card, $lastResult)
     case "JINGLEWOOD":
       switch($lastResult[0])
       {
-        case "Might": PlayAura("TCC105", $defPlayer); break;
-        case "Vigor": PlayAura("TCC107", $defPlayer); break;
-        case "Quicken": PlayAura("WTR225", $defPlayer); break;
+        case "Might": PutItemIntoPlayForPlayer("TCC105", $otherPlayer); break;
+        case "Vigor": PutItemIntoPlayForPlayer("TCC107", $otherPlayer); break;
+        case "Quicken": PutItemIntoPlayForPlayer("WTR225", $otherPlayer); break;
         default: break;
       }
       return $lastResult;
